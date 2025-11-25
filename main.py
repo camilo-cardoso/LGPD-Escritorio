@@ -20,7 +20,6 @@ st.title("Ferramentas de Escritório")
 
 col1, col2, col3 = st.columns(3)
 
-
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("📚 Unificar PDFs")
@@ -41,8 +40,6 @@ with col1:
         st.download_button("📥 Baixar PDF Unificado", buffer, "unificado.pdf")
     st.markdown('</div>', unsafe_allow_html=True)
 
-
-
 with col2:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("📝 Extrair Texto")
@@ -57,7 +54,6 @@ with col2:
 
         st.text_area("Texto Extraído:", texto, height=300)
     st.markdown('</div>', unsafe_allow_html=True)
-
 
 with col3:
     st.markdown('<div class="card">', unsafe_allow_html=True)
